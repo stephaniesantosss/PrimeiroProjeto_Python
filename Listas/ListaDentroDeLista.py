@@ -34,7 +34,7 @@ for elemento in inventario:
 serial = input("\nDigite o serial do equipamento que será excluido: ")
 
 for elemento in inventario:
-    if elemento[3] == serial:
+    if elemento[2] == serial:
         inventario.remove(elemento)
 
 for elemento in inventario:
